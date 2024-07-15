@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="player">
+            <div id="now-playing">Now playing: None</div>
+            <audio id="audio-player" controls>
+                Your browser does not support the audio element.
+            </audio>
+            <div class="controls">
+                <button id="prev"><img src="https://img.icons8.com/ios-glyphs/30/ffffff/rewind.png"/></button>
+                <button id="play"><img src="https://img.icons8.com/ios-filled/50/ffffff/play.png"/></button>
+                <button id="pause"><img src="https://img.icons8.com/ios-filled/50/ffffff/pause.png"/></button>
+                <button id="stop"><img src="https://img.icons8.com/ios-filled/50/ffffff/stop.png"/></button>
+                <button id="next"><img src="https://img.icons8.com/ios-glyphs/30/ffffff/fast-forward.png"/></button>
+            </div>
+            <ul id="playlist">
+                <li data-src="C:\Users\24adi\index.html\01 We All Try.mp3">we all try</li>
+                <li data-src="C:\Users\24adi\index.html\Strawberry Swing.mp3">Strawberry Swing</li>
+                <li data-src="C:\Users\24adi\index.html\Nature Feels.mp3">Nature Feels</li>
+            </ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
